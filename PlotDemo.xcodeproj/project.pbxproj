@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F10723791C5B74670021B62E /* InputCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10723781C5B74670021B62E /* InputCell.swift */; settings = {ASSET_TAGS = (); }; };
+		F107237B1C5B7DF60021B62E /* InputCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F107237A1C5B7DF60021B62E /* InputCell2.swift */; settings = {ASSET_TAGS = (); }; };
 		F15507D31C55F56D00780A0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15507D21C55F56D00780A0F /* AppDelegate.swift */; };
 		F15507D51C55F56D00780A0F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15507D41C55F56D00780A0F /* FirstViewController.swift */; };
 		F15507D71C55F56D00780A0F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15507D61C55F56D00780A0F /* SecondViewController.swift */; };
@@ -15,6 +17,13 @@
 		F15507DF1C55F56D00780A0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15507DD1C55F56D00780A0F /* LaunchScreen.storyboard */; };
 		F15507EA1C55F56D00780A0F /* PlotDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15507E91C55F56D00780A0F /* PlotDemoTests.swift */; };
 		F15507F51C55F56D00780A0F /* PlotDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15507F41C55F56D00780A0F /* PlotDemoUITests.swift */; };
+		F15508031C55F95E00780A0F /* PlotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15508021C55F95E00780A0F /* PlotView.swift */; settings = {ASSET_TAGS = (); }; };
+		F15508051C56145900780A0F /* iPhone6.png in Resources */ = {isa = PBXBuildFile; fileRef = F15508041C56145900780A0F /* iPhone6.png */; settings = {ASSET_TAGS = (); }; };
+		F16E47B61C59FF1500601611 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16E47B51C59FF1500601611 /* CardView.swift */; settings = {ASSET_TAGS = (); }; };
+		F16E47B81C5A04E300601611 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16E47B71C5A04E300601611 /* CardCell.swift */; settings = {ASSET_TAGS = (); }; };
+		F1721DF11C5882EC000084F3 /* CKCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1721DEF1C5882EC000084F3 /* CKCalendarView.m */; settings = {ASSET_TAGS = (); }; };
+		F18481431C5AFA44007526F0 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18481421C5AFA44007526F0 /* ThirdViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F18481451C5B4BB0007526F0 /* editButton+D@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F18481441C5B4BB0007526F0 /* editButton+D@2x.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F10723781C5B74670021B62E /* InputCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputCell.swift; sourceTree = "<group>"; };
+		F107237A1C5B7DF60021B62E /* InputCell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputCell2.swift; sourceTree = "<group>"; };
 		F15507CF1C55F56D00780A0F /* PlotDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlotDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F15507D21C55F56D00780A0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F15507D41C55F56D00780A0F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +60,15 @@
 		F15507F01C55F56D00780A0F /* PlotDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlotDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F15507F41C55F56D00780A0F /* PlotDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotDemoUITests.swift; sourceTree = "<group>"; };
 		F15507F61C55F56D00780A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F15508021C55F95E00780A0F /* PlotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlotView.swift; sourceTree = "<group>"; };
+		F15508041C56145900780A0F /* iPhone6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone6.png; sourceTree = "<group>"; };
+		F16E47B51C59FF1500601611 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		F16E47B71C5A04E300601611 /* CardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		F1721DEE1C5882EC000084F3 /* PlotDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlotDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		F1721DEF1C5882EC000084F3 /* CKCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKCalendarView.m; sourceTree = "<group>"; };
+		F1721DF01C5882EC000084F3 /* CKCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKCalendarView.h; sourceTree = "<group>"; };
+		F18481421C5AFA44007526F0 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		F18481441C5B4BB0007526F0 /* editButton+D@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "editButton+D@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +119,24 @@
 		F15507D11C55F56D00780A0F /* PlotDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F18481441C5B4BB0007526F0 /* editButton+D@2x.png */,
+				F15508041C56145900780A0F /* iPhone6.png */,
 				F15507D21C55F56D00780A0F /* AppDelegate.swift */,
 				F15507D41C55F56D00780A0F /* FirstViewController.swift */,
 				F15507D61C55F56D00780A0F /* SecondViewController.swift */,
+				F18481421C5AFA44007526F0 /* ThirdViewController.swift */,
+				F15508021C55F95E00780A0F /* PlotView.swift */,
+				F16E47B51C59FF1500601611 /* CardView.swift */,
+				F16E47B71C5A04E300601611 /* CardCell.swift */,
+				F10723781C5B74670021B62E /* InputCell.swift */,
+				F107237A1C5B7DF60021B62E /* InputCell2.swift */,
 				F15507D81C55F56D00780A0F /* Main.storyboard */,
 				F15507DB1C55F56D00780A0F /* Assets.xcassets */,
 				F15507DD1C55F56D00780A0F /* LaunchScreen.storyboard */,
 				F15507E01C55F56D00780A0F /* Info.plist */,
+				F1721DEF1C5882EC000084F3 /* CKCalendarView.m */,
+				F1721DF01C5882EC000084F3 /* CKCalendarView.h */,
+				F1721DEE1C5882EC000084F3 /* PlotDemo-Bridging-Header.h */,
 			);
 			path = PlotDemo;
 			sourceTree = "<group>";
@@ -190,6 +221,7 @@
 		F15507C71C55F56D00780A0F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "F&Mnet";
 				TargetAttributes = {
@@ -233,7 +265,9 @@
 			files = (
 				F15507DF1C55F56D00780A0F /* LaunchScreen.storyboard in Resources */,
 				F15507DC1C55F56D00780A0F /* Assets.xcassets in Resources */,
+				F18481451C5B4BB0007526F0 /* editButton+D@2x.png in Resources */,
 				F15507DA1C55F56D00780A0F /* Main.storyboard in Resources */,
+				F15508051C56145900780A0F /* iPhone6.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +292,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F16E47B81C5A04E300601611 /* CardCell.swift in Sources */,
+				F1721DF11C5882EC000084F3 /* CKCalendarView.m in Sources */,
 				F15507D71C55F56D00780A0F /* SecondViewController.swift in Sources */,
 				F15507D31C55F56D00780A0F /* AppDelegate.swift in Sources */,
+				F10723791C5B74670021B62E /* InputCell.swift in Sources */,
 				F15507D51C55F56D00780A0F /* FirstViewController.swift in Sources */,
+				F16E47B61C59FF1500601611 /* CardView.swift in Sources */,
+				F107237B1C5B7DF60021B62E /* InputCell2.swift in Sources */,
+				F18481431C5AFA44007526F0 /* ThirdViewController.swift in Sources */,
+				F15508031C55F95E00780A0F /* PlotView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,10 +441,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PlotDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fandmnet.PlotDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PlotDemo/PlotDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -411,10 +455,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PlotDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fandmnet.PlotDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PlotDemo/PlotDemo-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -485,6 +531,7 @@
 				F15507FB1C55F56D00780A0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F15507FC1C55F56D00780A0F /* Build configuration list for PBXNativeTarget "PlotDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +540,7 @@
 				F15507FE1C55F56D00780A0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F15507FF1C55F56D00780A0F /* Build configuration list for PBXNativeTarget "PlotDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +549,7 @@
 				F15508011C55F56D00780A0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
